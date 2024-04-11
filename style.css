@@ -1,0 +1,94 @@
+section {
+  margin: 0;
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  display: flex;
+  position: relative;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+section:hover {
+  height: 900px;
+  height: 700px;
+}
+
+img {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  position: relative;
+  left: 1px;
+  top: 0px;
+  right: 10px;
+  transition: transform 0.3s ease;
+}
+
+section:hover img {
+  transform: scale(1.1);
+}
+
+.date {
+  content: 10px;
+  padding: 25px;
+  border-radius: 25px;
+  background-color: orange;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  position: absolute;
+  top: 8px;
+  left: 500px;
+}
+
+.Photos {
+  content: 10px;
+  padding: 25px;
+  background-color: orange;
+  width: 50px;
+  height: 10px;
+  display: flex;
+  position: absolute;
+  bottom: 185px;
+  left: 5px;
+}
+
+.region {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  top: 380px;
+  left: 20px;
+  font-size: 30px;
+}
+
+.phrase {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  top: 440px;
+  left: 20px;
+  font-size: 30px;
+  color: orange;
+}
+
+i {
+  display: flex;
+  position: absolute;
+  top: 550px;
+  left: 20px;
+}
+
+article {
+  display: flex;
+  position: absolute;
+  bottom: 780px;
+  left: 400px;
+}
+
+.info {
+  display: flex;
+  position: absolute;
+  top: 450px;
+  font-size: 20px;
+  display: none;
+}/*# sourceMappingURL=style.css.map */
